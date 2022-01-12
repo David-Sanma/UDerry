@@ -1,0 +1,138 @@
+html,body{margin:0;padding:0}
+body{font: 76% arial,sans-serif;text-align:center}
+p{margin:0 10px 10px}
+a{padding:5px; text-decoration:none; color:#000000;}
+div#header{background-color:#F3F2ED;}
+div#header h1{height:80px;line-height:80px;margin:0;padding-left:10px;}
+div#container{text-align:left}
+div#content p{line-height:1.4}
+div#navigation{background:#daa617;}
+div#navigation ul{margin:15px 0; padding:0; list-style-type:none;}
+div#navigation li{margin-bottom:5px;float:left;margin:10px;}
+div#navigation{float:left;width:350px}
+
+hgroup#principal{ /*revisar*/
+    line-height:40px;
+    background-color: #d37d1c;
+    border: solid 3px #ccc;
+    font-family:'Liberation serif';
+    font-size: 20px;
+}
+h1#contentref a{
+    line-height:42px;
+    font-family:'Liberation serif';
+    color:darkblue;
+    font-size: 40px;
+}
+#firstgraphics{
+    position:relative; 
+    /*Posición relative: no se mueve con el movimiento de la rueda del mouse cuando la pantalla está ampliada.*/
+    /*El elemento es posicionado de acuerdo al flujo normal del documento, y luego es desplazado con relación a sí mismo, con base en los valores de top, right, bottom, and left.*/
+    bottom:8px; 
+    left:0;
+    right:0; 
+    background:#daa617; /*Fondo de pantalla*/
+    border: solid 3px #b3b5cc; /*Borde exterior*/
+    margin-top:8px;
+    line-height:0px;
+    display:flex; /*Capacidad de un elemento para expandirse y llenar el espacio de forma uniforme.*/
+    align-items:center; /*Centrar lista verticalmente*/
+    justify-content:center; /*Centrar lista horizontalmente*/
+}
+#firstgraphicstwo{
+    position:relative; 
+    bottom:8px; 
+    left:0;
+    right:0; 
+    background:#daa617; /*Fondo de pantalla*/
+    border: solid 3px #b3b5cc; /*Borde exterior*/
+    margin-top:-14px;
+    line-height:0px;
+    display:flex; /*Capacidad de un elemento para expandirse y llenar el espacio de forma uniforme.*/
+    align-items:center; /*Centrar lista verticalmente*/
+    justify-content:center; /*Centrar lista horizontalmente*/
+}
+.cent{display:flex;justify-content:center} /*class de referencia para centrados de manera horizontal.*/
+.centwo{margin:auto auto;}
+
+#secondbar{margin:0px 0;padding:0px;}
+
+.indexlist,h2#letters{float:left;margin:10px;list-style-type:none;font-family:'Times New Roman'}
+li,.copylet{list-style-type:none;font-family:'Times New Roman'; font-size:16px;}
+article#altitle{
+    position:relative;
+    top:1%;
+    left:5%;
+    width:40%;
+    /*max-width:40%;*/
+    /*min-width:10%;*/
+    background-color:#ccc;
+}
+article#altwo{
+    position:relative;
+    left:55%;
+    width:40%;
+    background-color: rgb(187, 102, 102);
+}
+article#fortext{
+    margin:10px auto; /*Primer valor: Y ; segundo valor: X , auto significa que lo va a centrar, va a dejar el mismo espacio en ambos lados.*/
+    font-family:'sans-serif';
+}
+header#numbers{margin:30px 80px; font-family:'Times New Roman';font-style:oblique;} 
+header#secondoption{margin:0px 80px;font-family:'Times New Roman';font-style:oblique;}
+div#one{position:relative;bottom:40px;right:10px;}
+.sl{font-style:normal;font-family:'Times New Roman';font-size:20px;position:relative;right:30px;bottom:70px;} /*Acabar los retoques de manera individual.*/
+
+footer#backgr{background:#BFBD93;}
+footer,p #content{margin:0;padding:5px 10px;font-size:20px;font-style:oblique;}
+footer#container{width:700px;margin:0 auto;}
+footer#dimension{clear:both;width:100%}
+
+aside#dimension{
+    position:relative;
+    bottom:350px;
+    right:10px;
+    float:right;
+    width:100px;
+    border:solid 3px #b3b5cc;
+    background-color:#ccc;
+}
+aside#stk{
+    position:sticky; 
+    bottom:600px;
+    right:5%;
+    float:right;
+    width:100px;
+    border:solid 3px #3390c5;
+    background-color:rgb(139, 151, 167);
+}
+.firsconftab{
+    background-color: #7cb8a9;
+    /*position:relative;
+    top:10%;
+    right:110%;
+    left:30%;
+    bottom:90%;*/
+    margin:0 auto;
+}
+.tab{
+    padding-top:3%;
+    padding-bottom:3%;
+    width:60%;
+    font-family:'Times New Roman';
+    font-style:oblique;
+    font-size:15px;
+}
+.subtab{
+    font-family:'Times New Roman';
+    font-size:14px;
+}
+.sizephoto{
+    /*margin-left:60%;*/
+    margin-top: 30px;
+    margin-bottom:30px;
+    /*border:solid 3px #b3b5cc;*/
+}
+.positionimg{
+    margin-right:50%;
+}
