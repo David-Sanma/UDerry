@@ -19,7 +19,7 @@ hgroup#principal{ /*revisar*/
     font-size: 20px;
 }
 h1#contentref a{
-    line-height:42px;
+    line-height:47px;
     font-family:'Liberation serif';
     color:darkblue;
     font-size: 40px;
@@ -53,7 +53,7 @@ h1#contentref a{
     justify-content:center; /*Centrar lista horizontalmente*/
 }
 .cent{display:flex;justify-content:center} /*class de referencia para centrados de manera horizontal.*/
-.centwo{margin:auto auto;}
+.centwo{margin:0 auto;}
 
 #secondbar{margin:0px 0;padding:0px;}
 
@@ -66,12 +66,14 @@ article#altitle{
     width:40%;
     /*max-width:40%;*/
     /*min-width:10%;*/
+    border: solid 2px rebeccapurple;
     background-color:#ccc;
 }
 article#altwo{
     position:relative;
     left:55%;
     width:40%;
+    border: solid 2px rebeccapurple;
     background-color: rgb(187, 102, 102);
 }
 article#fortext{
@@ -108,11 +110,6 @@ aside#stk{
 }
 .firsconftab{
     background-color: #7cb8a9;
-    /*position:relative;
-    top:10%;
-    right:110%;
-    left:30%;
-    bottom:90%;*/
     margin:0 auto;
 }
 .tab{
@@ -127,12 +124,56 @@ aside#stk{
     font-family:'Times New Roman';
     font-size:14px;
 }
-.sizephoto{
-    /*margin-left:60%;*/
+.listofsol{
+    font-family:'Liberation Serif';
+    font-size:20px;
+    margin-right:50px;
+    list-style-type:circle;
+    margin:15px;
+}
+#posfinalimg{
+    position:relative;
+    float:left;
+    margin-left:5%;
+}
+article > img{
+    border: solid 4px #b8af7c;
     margin-top: 30px;
     margin-bottom:30px;
-    /*border:solid 3px #b3b5cc;*/
 }
-.positionimg{
-    margin-right:50%;
+article > h2{
+    font-family:'Liberation Serif';
+    font-size:20px;
 }
+td > p{
+    position:relative;
+    text-align:left;
+    margin-left:5%;
+    font-family:'Liberation Serif';
+    background-color:burlywood;
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-left:5px;
+    padding-right:5px;
+    border:solid 1px brown;
+    font-size:20px;
+}
+td:first-child table{
+    background-color:tomato;
+    margin-right:5%;
+}
+td > h2{
+    font-family:'Liberation Serif';
+    margin-right:1%;
+}
+div:first-child form{
+    background-color: #7cb8a9;
+    padding-top:5px;
+    padding-bottom:5px;
+    margin-left:30%;
+    margin-right:30%; 
+    border:solid 3px blue;
+    font-family:'Liberation Serif';
+    font-size:20px;
+}
+form > input{margin:15px; margin-top:10px;}
