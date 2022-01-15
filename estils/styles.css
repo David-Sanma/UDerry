@@ -99,15 +99,6 @@ aside#dimension{
     border:solid 3px #b3b5cc;
     background-color:#ccc;
 }
-aside#stk{
-    position:sticky; 
-    bottom:600px;
-    right:5%;
-    float:right;
-    width:100px;
-    border:solid 3px #3390c5;
-    background-color:rgb(139, 151, 167);
-}
 .firsconftab{
     background-color: #7cb8a9;
     margin:0 auto;
